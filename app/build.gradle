@@ -24,6 +24,12 @@ android {
         }
     }
 
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+
     buildTypes { // 빌드의 타입을 설정한다.
         // 배포 버전
         release {
